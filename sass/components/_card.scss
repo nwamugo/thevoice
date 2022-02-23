@@ -1,0 +1,71 @@
+.card {
+  border-radius: 2.5rem;
+  box-shadow: 0 .1rem .5rem rgba(156, 156, 156, 0.3);
+  padding: 6rem 3rem;
+  width: 32rem;
+  background: #fff;
+
+  ul {
+    list-style-position: inside;
+  }
+
+  li {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.card:last-child {
+  li::marker {
+    color: #69E3AF;
+  }
+}
+
+.card:nth-child(2) {
+  li::marker {
+    color: rgb(221, 190, 11);
+  }
+}
+
+.card:nth-child(3) {
+  li::marker {
+    color: red;
+  }
+}
+
+
+.step {
+  position: absolute;
+  width: 30rem;
+  h3 {
+    border-left: .1rem solid rebeccapurple;
+    padding-left: 3rem;
+  }
+  p {
+    padding-left: 3rem;
+  }
+}
+
+.step:nth-child(2) {
+  top: 20%;
+  left: 30%;
+}
+
+.step:last-child {
+  top: 50%;
+  left: 12%;
+}
+
+
+.description {
+  border: 1px solid #ccc;
+  width: 40rem;
+  position: absolute;
+  right: 15%;
+  top: 5%;
+  padding: 7rem 4rem;
+}

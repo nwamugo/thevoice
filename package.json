@@ -1,0 +1,23 @@
+{
+  "name": "thevoice",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A dribble design implemented with html and css",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animation",
+    "landing page"
+  ],
+  "author": "Duziem Ugoji",
+  "contributors": [
+    "Duziem Ugoji <https://www.linkedin.com/in/duziem-ugoji/>"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

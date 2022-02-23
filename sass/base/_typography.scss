@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: $color-grey-dark;
+}
+
+h1 {
+  font-family: 'Zilla Slab', Times, serif;
+  font-weight: 600;
+  line-height: 1em;
+  font-size: 12rem;
+  color: $color-grey-dark-3;
+
+  position: relative;
+
+  img:first-of-type {
+    width: 15rem;
+  }
+
+  img:last-of-type {
+    width: 15rem;
+  }
+}
+
+.brief {
+  font-size: 1.6rem;
+  color: $color-grey-dark;
+  line-height: 1.7em;
+}
+
+.about h3 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.features h3 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.features p {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2em;
+}
+
+.step h3 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.step p {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2em;
+}
+
+.description h3 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.description p {
+  font-size: 1.6rem;
+  margin-top: 1.3rem;
+  margin-bottom: 3rem;
+  line-height: 2em;
+}
+
+.download h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.download p {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  line-height: 2em;
+}

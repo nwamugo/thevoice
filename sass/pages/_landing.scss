@@ -1,0 +1,41 @@
+section {
+  width: 100%;
+  background: #fefefe;
+  padding: 5rem 20rem;
+  position: relative;
+}
+
+.jumbo {
+  padding-top: 0;
+}
+
+.about {
+  padding: 12rem 15rem;
+  background-image: radial-gradient(circle closest-corner at 5% 17%, #4D4A47 49%, #424248 76%, #454448 140%, #494747 164%, #393B4B 196%);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1.5em;
+  padding: 12rem 15rem;
+}
+
+.process {
+  padding: 0rem 15rem;
+}
+
+div.feat-process-download {
+  background-image: radial-gradient(circle closest-corner at 100% 50%, #D1F5E9 14%, #ddfcf1 44%, #def8ef 49%, #fff 137%, transparent),
+  radial-gradient(circle closest-corner at 3% 84%, #dcc1f8 -13%, #fff 137%);
+
+
+  .features,
+  .process,
+  .download {
+    background: transparent;
+  }
+}
+
+.download {
+}

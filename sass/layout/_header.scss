@@ -1,0 +1,30 @@
+header {
+  padding: 5rem 20rem;
+  display: flex;
+  background: #fefefe;
+  justify-content: space-between;
+}
+
+nav {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: .8rem;
+    font-size: 1.6rem;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: $color-grey-dark-3;
+  }
+}

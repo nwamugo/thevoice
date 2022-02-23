@@ -1,0 +1,65 @@
+.article-btn,
+.article-btn:link,
+.article-btn:visited {
+  text-transform: capitalize;
+  display: block;
+  border: none;
+  // width: 12rem;
+  background: transparent;
+  position: relative;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  div.circle-shape {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #69E3AF;
+    position: absolute;
+    left: 0;
+  }
+  div:last-child {
+    padding: 1rem;
+  }
+
+}
+
+
+.nav-action-btn,
+.nav-action-btn:link,
+.nav-action-btn:visited {
+  margin-right: 4rem;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  background: #D9F8F0;
+  color: #4E9481;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+
+.brand-name-btn {
+  border: none;
+  background: transparent;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: $color-grey-dark-3;
+}
+
+.download-btn {
+  border-radius: 1.5rem;
+}
+
+.ios-btn {
+  background: #383b49;
+  color: #fff;
+}
+
+.android-btn {
+  background: transparent;
+  color: #383b49;
+  margin-left: 2.5rem;
+}

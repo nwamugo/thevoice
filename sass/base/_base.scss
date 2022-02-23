@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  @media (max-width: 1640px) {
+    font-size: 56.5%;
+  }
+  @media (max-width: 1440px) {
+      font-size: 50.5%;
+  }
+  @media (max-width: 1300px) {
+      font-size: 44.5%;
+  }
+  @media (max-width: 1026px) {
+      font-size: 30.5%;
+  }
+  @media (max-width: 820px) {
+      font-size: 26.5%;
+  }
+  @media (max-width: 540px) {
+      font-size: 18%;
+  }
+  @media (max-width: 414px) {
+      font-size: 12%;
+  }
+  @media (max-width: 375px) {
+      font-size: 10%;
+  }
+  @media (max-width: 300px) {
+      font-size: 9%;
+  }
+  @media (min-width: 1900px) {
+    font-size: 66.5%;
+  }
+}
+
+body {
+  background: $color-teal;
+  padding: 9rem 8rem;
+}
+
+div {
+  position: relative;
+}
